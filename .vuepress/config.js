@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "刘大壮",
-  "description": "This is liudazhuang‘s blog",
+  "title": "巨蟹座的刘大壮",
+  "description": "巨蟹座，一个极具人格魅力的星座，一个温柔与冷漠并存的星座",
   "dest": "public",
   "head": [
     [
@@ -20,16 +20,16 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-    "mode": 'auto', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    "mode": 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     "modePicker": true, // 默认 true，false 不显示模式调节按钮，true 则显示
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/",
         "icon": "reco-home"
       },
-      {
-        "text": "TimeLine",
+      /*   {
+        "text": "时间轴",
         "link": "/timeline/",
         "icon": "reco-date"
       },
@@ -53,7 +53,7 @@ module.exports = {
             "icon": "reco-github"
           }
         ]
-      }
+      }*/
     ],
     "sidebar": {
       "/docs/theme-reco/": [
@@ -64,38 +64,38 @@ module.exports = {
       ]
     },
     "type": "blog",
-    "blogConfig": {
-      "category": {
-        "location": 2,
-        "text": "Category"
-      },
-      "tag": {
-        "location": 3,
-        "text": "Tag"
-      }
-    },
-    "friendLink": [
-      {
-        "title": "刘大壮",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
-      }
-    ],
+    // "blogConfig": {
+    //   "category": {
+    //     "location": 2,
+    //     "text": "Category"
+    //   },
+    //   "tag": {
+    //     "location": 3,
+    //     "text": "Tag"
+    //   }
+    // },
+    // "friendLink": [
+    //   {
+    //     "title": "刘大壮",
+    //     "desc": "Enjoy when you can, and endure when you must.",
+    //     "email": "1156743527@qq.com",
+    //     "link": "https://www.recoluan.com"
+    //   },
+    //   {
+    //     "title": "vuepress-theme-reco",
+    //     "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+    //     "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+    //     "link": "https://vuepress-theme-reco.recoluan.com"
+    //   }
+    // ],
     "logo": "/logo.png",
-    "search": true,
-    "searchMaxSuggestions": 10,
-    "lastUpdated": "Last Updated",
-    "author": "刘大壮",
+    // "search": true,
+    // "searchMaxSuggestions": 10,
+    "lastUpdated": "巨蟹座的刘大壮",
+    "author": "巨蟹座的刘大壮",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
-    "startYear": "2017"
+    "startYear": "2022"
   },
   "markdown": {
     "lineNumbers": true

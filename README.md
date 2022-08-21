@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 刘大壮
+heroText: 巨蟹座的刘大壮
 tagline: 月上柳梢头，人约黄昏后。
 # heroImage: /hero.png
 # heroImageStyle: {
